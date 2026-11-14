@@ -1,0 +1,24 @@
+{
+  "now": 1700000000,
+  "tbs_precert": {
+    "serial": "9",
+    "subject": "cn=www.shop.example",
+    "issuer": "cn=Shop CA",
+    "poison": true
+  },
+  "tbs_final": {
+    "serial": "9",
+    "subject": "cn=www.shop.example",
+    "issuer": "cn=Shop CA",
+    "poison": false
+  },
+  "scts": [
+    {
+      "log_id": "log-argon",
+      "timestamp": 1699999900,
+      "entry_type": 1,
+      "tbs_hash": "3ff64c4c3ee884d3092ea6b9e9adc43e3ddee43a15d8ab2e841c8115eb7ff9b1",
+      "sig": "7bb8dafe843e10dabdcb969ebbba3b13d7d17a9de3cad5bb6fb69b9beab603d0"
+    }
+  ]
+}

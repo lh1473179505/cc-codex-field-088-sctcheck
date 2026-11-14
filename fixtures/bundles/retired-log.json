@@ -1,0 +1,31 @@
+{
+  "now": 1700000000,
+  "tbs_precert": {
+    "serial": "9",
+    "subject": "cn=www.shop.example",
+    "issuer": "cn=Shop CA",
+    "poison": true
+  },
+  "tbs_final": {
+    "serial": "9",
+    "subject": "cn=www.shop.example",
+    "issuer": "cn=Shop CA",
+    "poison": false
+  },
+  "scts": [
+    {
+      "log_id": "log-retired",
+      "timestamp": 1699999900,
+      "entry_type": 1,
+      "tbs_hash": "3ff64c4c3ee884d3092ea6b9e9adc43e3ddee43a15d8ab2e841c8115eb7ff9b1",
+      "sig": "e172b696e8063b5fc29f7fecd0c0431124e40b1b3a68d45865bdd9262fe4d501"
+    },
+    {
+      "log_id": "log-retired",
+      "timestamp": 1699999990,
+      "entry_type": 1,
+      "tbs_hash": "3ff64c4c3ee884d3092ea6b9e9adc43e3ddee43a15d8ab2e841c8115eb7ff9b1",
+      "sig": "6fa39e52c57a218fea5ffac9cda9388ab6615fc24e57940e8274081cef77fd0d"
+    }
+  ]
+}

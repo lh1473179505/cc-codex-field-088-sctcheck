@@ -1,0 +1,21 @@
+{
+  "min_scts": 2,
+  "logs": [
+    {
+      "log_id": "log-argon",
+      "start": 1690000000,
+      "retired": false
+    },
+    {
+      "log_id": "log-boron",
+      "start": 1690000000,
+      "retired": false
+    },
+    {
+      "log_id": "log-retired",
+      "start": 1690000000,
+      "retired": true,
+      "retired_at": 1699913600
+    }
+  ]
+}

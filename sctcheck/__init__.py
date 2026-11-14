@@ -1,0 +1,1 @@
+"""sctcheck package."""
